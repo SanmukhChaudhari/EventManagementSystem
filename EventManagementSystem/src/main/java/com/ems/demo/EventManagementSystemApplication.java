@@ -7,8 +7,9 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class EventManagementSystemApplication {
 
+	static ConfigurableApplicationContext context;
 	public static void main(String[] args) {
-		ConfigurableApplicationContext context =  SpringApplication.run(EventManagementSystemApplication.class, args);
+		context =  SpringApplication.run(EventManagementSystemApplication.class, args);
 	}
 
 }
